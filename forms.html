@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>LOGIN</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <style media="screen">
+        *,
+        *:after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #080710;
+            flex-wrap: nowrap;
+        }
+
+        .background {
+            width: 430px;
+            height: 520px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+
+        form {
+            height: 50%px;
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.13);
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            padding: 50px 35px;
+        }
+
+        form * {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            outline: none;
+            border: none;
+        }
+
+        h3 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 42px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .input,
+        select,
+        textarea {
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.07);
+            border-radius: 3px;
+            padding: 0 10px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+
+        }
+
+        option {
+            background-color: #080710;
+        }
+
+        ::placeholder {
+            color: #e5e5e5;
+        }
+
+        button {
+            margin-top: 50px;
+            width: 100%;
+            background-color: #ffffff;
+            color: #080710;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        a {
+            font-style: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="forms.html">
+        <h3>Registration Form </h3>
+
+        <label for="fname">First name:</label>
+        <input type="text" placeholder="Enter your First name" id="fname" class="input" required>
+       
+    
+
+        <label for="mname">Middle name:</label>
+        <input type="text" placeholder="Enter your Middle name" id="mname" class="input" required>
+
+        <label for="sname">Surname:</label>
+        <input type="text" placeholder="Enter your Surname" id="sname" class="input" required>
+
+        <label for="gender">Gender:</label>
+        <span>Male:</span><input type="radio" name="gender">
+        <span style="margin-left: 20px;">female:</span><input type="radio" name="gender" required>
+
+        <label for="branch">Branch:</label>
+        <select name="branch" id="branch" required>
+            <option value="it">IT</option>
+            <option value="ce">CE</option>
+            <option value="mechanical">MECHANICAL</option>
+            <option value="civil">CIVIL</option>
+        </select>
+
+        <label for="div">Division:</label>
+        <select name="div" id="div" required>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+        </select>
+
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" class="input" required>
+
+        <label for="add">Address:</label>
+        <textarea type="add" name="add" id="add" required></textarea>
+
+        <button>Submit</button>
+        <button>Cancel</button>
+
+    </form>
+</body>
+
+</html>
