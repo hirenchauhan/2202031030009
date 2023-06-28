@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String Operators</h1>
+
+<p>All conditional operators can be used on both numbers and strings.</p>
+
+<p id="demo1"></p>
+
+<script>
+    let text1 = "A";
+    let text2 = "B";
+    let result = text1 < text2;
+    document.getElementById("demo1").innerHTML = "Is A less than B? " + result;
+</script>
+
+<br>
+
+<h2>The + Operator</h2>
+<p>Adding a number and a string, returns a string.</p>
+
+<p id="demo2"></p>
+
+<script>
+    let x = 5 + 5;
+    let y = "5" + 5;
+    let z = "Hello" + 5;
+    document.getElementById("demo2").innerHTML =
+    x + "<br>" + y + "<br>" + z;
+</script>
+
+<br>
+
+<h2>The + Operator</h2>
+<p>The + operator concatenates (adds) strings.</p>
+
+<p id="demo3"></p>
+
+<script>
+    let text3 = "John";
+    let text4 = "Doe";
+    let text5 = text3 + " " + text4;
+    document.getElementById("demo3").innerHTML = text5;
+</script>
+
+<br>
+
+<h2>The += Operator</h2>
+<p>The assignment operator += can concatenate strings.</p>
+
+<p id="demo"></p>
+
+<script>
+let text6 = "What a very ";
+text6 += "nice day";
+document.getElementById("demo").innerHTML = text6;
+</script>
+
+</body>
+</html>
