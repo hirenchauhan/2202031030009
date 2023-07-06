@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.drag{
+    background-color: blanchedalmond;
+    border-color: black;
+    text-align: center;
+    text-decoration-color: grey;
+    border-radius: 10%;
+}
+.drop{
+    background-color: brown;
+    font-size: large;
+    color: white;
+    border-radius: 10%;
+}

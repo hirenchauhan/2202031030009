@@ -1,0 +1,13 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+.resizable{
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+.main{
+    text-align: center;
+     margin: 0;
+}
