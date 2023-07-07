@@ -1,0 +1,26 @@
+<!doctype html>  
+<html lang="en">  
+<head>  
+<meta charset="utf-8">  
+<title>jQuery UI Tooltip functionality</title>  
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+ 
+<!-- Javascript -->  
+<script>  
+$(function() {  
+$("#tip-1").tooltip();  
+$("#tip-2").tooltip();  
+});  
+</script>  
+</head>  
+<body>  
+<!-- HTML -->  
+<label for="comment">Name:</label>  
+<input id="tip-1" title="Write your name here!">  
+<p><a id="tip-2" href="#" title="You have a beautiful name!!">  
+Tooltip  
+</a></p>  
+</body>  
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>  
+<html lang="en">  
+   <head>  
+      <meta charset="utf-8">  
+      <title>jQuery UI Menu functionality</title>  
+      <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+     
+      <style>  
+         .ui-menu {  
+            width: 150px;  
+         }  
+      </style>  
+      
+      <script>  
+         $(function() {  
+            $( "#menu-1" ).menu();  
+         });  
+      </script>  
+   </head>  
+   <body>  
+<h3>Food Menu::</h3>
+     
+      <ul id="menu-1">  
+        <li class="ui-state-disabled"><div>Jain food</div></li>
+         <li><a href="#">veg</a></li>  
+          
+
+         <li><a href="#">South-indian</a>  
+            <ul>  
+               <li><a href="#">dosa</a></li>  
+               <li><a href="#">idli</a></li>  
+            </ul>  
+         </li>  
+         <li><a href="#">junk food</a>
+            <ul>  
+                <li><a href="#">Pizza</a></li>  
+                <li><a href="#">burger</a></li>  
+                <li><a href="#">french fries</a></li>  
+                <li><a href="#">frenky</a></li>  
+                <li><a href="#">sandwitch</a></li> 
+             </ul>  
+            </li>  
+         <li><a href="#">gujarati thali</a></li>  
+      </ul>  
+   </body>  
+</html>

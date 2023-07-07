@@ -1,0 +1,87 @@
+<!doctype html>  
+<html lang="en">  
+<head>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <title>jQuery UI Selectmenu - Default functionality</title>  
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+  <link rel="stylesheet" href="https:/resources/demos/style.css">  
+  <script>  
+  $(function() {  
+    $( "#degree" ).selectmenu();  
+ 
+    $( "#subject" ).selectmenu();  
+ 
+    $( "#age" )  
+      .selectmenu()  
+      .selectmenu( "menuWidget" )  
+        .addClass( "overflow" );  
+  });  
+  </script>  
+  <style>  
+    fieldset {  
+      border: 2px solid grey;  
+    }  
+    label {  
+      display: block;  
+      margin: 20px 0 0 0;  
+    }  
+    select {  
+      width: 300px;  
+    }  
+    .overflow {  
+      height: 180px;  
+    }  
+  </style>  
+</head>  
+<body>  
+<div class="demo">  
+<form action="#">  
+<fieldset>  
+    <label for="degree">Degree:</label>  
+    <select name="degree" id="degree">  
+      <option selected="selected">Engineering</option>  
+      <option>Mechanical</option>  
+      <option>information technology</option>  
+      <option>Computer technology</option>  
+      <option>Civil engineering</option>  
+    </select>  
+
+ <label for="subject">Subject Name:</label>  
+    <select name="subject" id="subject">   
+        <option value="Mathematics">Mathematics</option>  
+        <option value="Biology">Biology</option>   
+        <option value="science">Science</option>  
+        <option value="arts">Arts</option>  
+      </optgroup>  
+    </select>  
+ <label for="age">Year of Birth:</label>  
+    <select name="age" id="age">  
+      <option>1996</option>  
+      <option>1997</option>  
+      <option>1998</option>  
+      <option>1999</option>  
+      <option>2000</option>  
+      <option>2001</option>  
+      <option>2002</option>  
+      <option>2003</option>  
+      <option>2004</option>  
+      <option>2005</option>  
+      <option>2006</option>  
+      <option>2007</option>  
+      <option>2008</option>  
+      <option>2009</option>  
+      <option>2010</option>  
+      <option>2011</option>  
+      <option>2012</option>  
+      <option>2013</option>  
+      <option>2014</option>  
+      <option selected="selected">2015</option>  
+    </select>  
+  </fieldset>  
+</form>  
+</div>  
+</body>  
+</html>
