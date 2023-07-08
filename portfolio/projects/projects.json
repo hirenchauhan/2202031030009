@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Aims infosoft EMS",
+    "desc": "employee management system is technology designed to streamline core HR services and improve workforce productivity.",
+    "image": "project1",
+    "category": "basicweb",
+    "links": {
+      "view": "https://www.aimsinfosoft.com/"
+    }
+  },
+  {
+    "name": "Portfolio",
+    "desc": "It shows a skill,Education and website that showcases a developer's past projects.",
+    "image": "portfolio1",
+    "category": "basicweb",
+    "links": {
+      "view": "#"
+    }
+  }
+]
